@@ -1,0 +1,65 @@
+.box {
+  border: 50px solid #9b59b6;
+  width: 200px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.yellow {
+  border: 50px solid #f1c40f;
+}
+
+.red {
+  border: 50px solid #e74c3c;
+}
+
+.hidden-box {
+  display: none;
+}
+
+.invisible-box {
+  visibility: hidden;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.challenge2 {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  padding-left: 10%; /* 양쪽에 10% 패딩을 적용하여 들여쓰기 효과 */
+}
+
+h1 {
+  color: #9b59b6;
+}
+h1:first-child {
+  text-align: center;
+}
+h1::before {
+  content: "Topic:";
+}
+
+p {
+  font-size: 16px;
+  font-family: Verdana;
+  font-style: italic;
+}
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
+
+.sub-header {
+  color: #2980b9;
+}
